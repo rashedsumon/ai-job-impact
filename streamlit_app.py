@@ -6,7 +6,7 @@ from model import get_or_train_model
 # Set up page configurations
 str.set_page_config(page_title="AI Labor Market Impact Predictor", layout="centered")
 
-str.title("🧠 Global AI Impact on Jobs & Salaries")
+str.title("🧠 Ai Job Impact")
 str.write(
     "This web application utilizes machine learning to predict expected salaries "
     "based on cross-border industry variables and AI metrics using the `sarcasmos/ai-society` dataset."

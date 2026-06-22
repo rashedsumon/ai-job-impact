@@ -1,0 +1,15 @@
+# Ignore local Kaggle cache and downloaded data files
+.kagglehub/
+*.csv
+*.xlsx
+data/
+
+# Ignore serialized machine learning models
+*.joblib
+*.pkl
+
+# Ignore Python runtime artifacts
+__pycache__/
+*.pyc
+.env
+.streamlit/config.toml
